@@ -1,0 +1,36 @@
+package com.mycompany.a1;
+
+import com.codename1.charts.util.ColorUtil;
+
+public class Ant extends Movable implements ISteerable{
+	
+	private int maximumSpeed;
+	private int foodLevel;
+	private int foodConsumptionRate;
+	private int healthLevel;
+	private int lastFlagReached;
+	private int maxDamageLevel;
+	
+	public Ant() {
+		super(ColorUtil.BLACK, 30);
+		super.setSpeed(0);
+		super.setHeading(0);
+		this.maximumSpeed = 30;
+		this.foodLevel = 30;
+		this.healthLevel = 10;
+		this.lastFlagReached = 0;
+		
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void turnLeft() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void turnRight() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

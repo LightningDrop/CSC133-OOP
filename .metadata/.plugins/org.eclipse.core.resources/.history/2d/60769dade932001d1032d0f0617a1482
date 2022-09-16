@@ -1,0 +1,10 @@
+package com.mycompany.a1;
+
+public abstract class Fixed extends GameObject{
+
+	public Fixed(int size) {
+		super(size);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.mycompany.a1;
+
+import com.codename1.charts.models.Point;
+
+public abstract class Movable extends GameObject{
+	
+	public int heading;
+	public int speed;
+
+	public Movable(int size) {
+		super(size);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Point move() {
+		return null; // null value for temp
+	} 
+	public void setHeading(int heading) {
+		this.heading = heading;
+	}
+	public int getHeading() {
+		return heading;
+	}
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	public int getSpeed() {
+		return speed;
+	}
+}

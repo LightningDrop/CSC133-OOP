@@ -1,0 +1,34 @@
+package com.mycompany.a1;
+
+public class GameWorld {
+	
+	GameObject temp;
+
+	public void init() {
+		//code here to create the
+		//initial game objects/setup
+		temp = new Flag(5);
+		
+		temp.setColor();
+	}
+	// additional methods here to
+	// manipulate world objects and
+	// related game state data
+
+	public void accelerate() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+//Stopping here today
+//
+//I was attempting to test if all the permissions are set right.
+//Tomorrow I will have to test the rest of the objects then review
+//the requirements.
+//
+//Questions
+//
+//Timer how does the timer work. 
+//What is supposed to go into ISteerable.
+//UML diagram help. How are the arrows supposed to go. 
